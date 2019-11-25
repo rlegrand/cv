@@ -281,6 +281,28 @@ h3.languages:before{
   position: relative;
   overflow: hidden;
 }
+
+a.printer{
+  display: block;
+  float: right;
+  width: 2em;
+  height: 2em;
+  background-image: url(imgs/printer.svg);
+  background-size: 1.5em 1.5em;
+  background-position: center;
+  background-repeat: no-repeat;
+  object-fit: fill;
+  border: solid 2px lightblue;
+  border-radius: 50%;
+}
+/*
+a.printer img{
+  border: solid 2px lightblue;
+  border-radius: 50%;
+  width: 32px;
+  height: 32px;
+  fill: lightblue;
+}*/
 /* PROGRESS SIMULATION END */
 
 /*
